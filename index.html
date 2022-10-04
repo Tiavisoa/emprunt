@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <title>Formulaire d'emprunt</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="titre">
+            <p> Emprunt d'un livre </p>
+        </div>
+        <div class="table">
+            <form action="" id="form">
+                <table class="form">
+                    <tr>
+                        <td class="t">INFORMATION  <br> DU LECTEUR</td>
+                        <td>
+                            <div class="lecteur">
+                               <table >
+                                <tr>
+                                    <td><label for="nom">Nom</label></td>
+                                    <td><label for="prenom">Prenom</label></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt"><input type="text" id="nom"></td>
+                                    <td class="txt"><input type="text" id="prenom"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="numéro">Adresse du livraison</label></td>
+                                    <td><label for="email">Numéro téléphone</label></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt"><input type="text" id="numéro"></td>
+                                    <td class="txt"><input type="text" id="email"></td>
+                                </tr>
+                             </table>
+                        </div> 
+                        </td>
+                    </tr>
+                    <tr>
+                        
+                            <td class="t">INFORMATION  <br> DU LIVRE</td>
+                             <td>
+                                <div class="livre">
+                                    <table >
+                                      <tr>
+                                        <td><label for="title">Titre</label></td>
+                                        <td><label for="auteur">Auteur</label></td>
+                                      </tr>
+                                      <tr>
+                                         <td><input type="text" id="title"></td>
+                                         <td><input type="text" id="auteur"></td>
+                                      </tr>
+                                      
+                                   </table>
+                             </div>
+                        </td>
+                
+                    </tr>
+                    <tr>
+                     
+                        <td class="t"> TYPE   <br> D'ABONNEMENT</td>
+                         <td>
+                            <div class="abonnement">
+                                <table >
+                                    <tr>
+                                        <td class="rd"><input type="radio" name="abonnement"></td>
+                                        <td class="rd"><input type="radio" name="abonnement"></td>
+                                        <td class="rd"><input type="radio" name="abonnement"></td>
+                                     </tr>
+                                     
+                                  <tr>
+                                    <td class="rd" ><label for="auteur">simple</label></td> 
+                                    <td class="rd"><label for="title">Mois</label></td>
+                                    <td class="rd"><label for="auteur">Année</label></td>
+                                  </tr>
+                                 
+                               </table>
+                            </div>
+                    </td>
+                
+                </tr>
+                <tr>
+                     
+                    <td class="t"> DATE  <br> (delai d'emprunt)</td>
+                     <td>
+                        <div class="abonnement">
+                            <table >
+                                <tr>
+                                    <td><label for="date1"> Date d'emprunt </label></td>
+                                    <td><input type="date" name="date" id="date1"></td>
+                                </tr>
+                                
+                                <tr>
+                                    <br>
+                                    <td class="rd"><input type="radio" name="abonnement"></td>
+                                    <td class="rd"><input type="radio" name="abonnement"></td>
+                                    <td class="rd"><input type="radio" name="abonnement"></td>
+                                 </tr>
+                                 
+                              <tr>
+                                <td class="rd" ><label for="auteur">1-3days</label></td> 
+                                <td class="rd"><label for="title">1 week</label></td>
+                                <td class="rd"><label for="auteur">1-2 weeks</label></td>
+                              </tr>
+                             
+                           </table>
+                        </div>
+                </td>
+            
+            </tr>
+           
+                </table>
+
+            </form>
+            <div class="boutton">
+                <button>VALIDER</button>
+            </div>
+        </div>
+    </body>
+</html>
